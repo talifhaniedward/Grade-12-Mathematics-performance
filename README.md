@@ -1,80 +1,61 @@
-Power BI Report: Grade 12 Mathematics Performance
-Overview
+# Power BI Report: Grade 12 Mathematics Performance
 
-This report analyzes Grade 12 Mathematics performance for two schools, comparing students from Urban and Rural areas. The goal is to identify factors affecting student performance and provide actionable insights.
+## Data Preparation
 
-Data Preparation
+Before creating the report, I performed **data profiling** to examine the data structure, content, quality, and relationships. I checked for completeness, duplicates, and consistency in the dataset.
 
-Before creating the report, data profiling was performed to examine the data structure, content, quality, and relationships. Completeness, duplicates, and consistency were checked.
+Next, I applied the **ETL process**:
 
-The ETL process was applied as follows:
+- **Extract:** Imported the Excel dataset into Power BI.  
+- **Transform:** Used Power Query to clean the data, check data types, and remove duplicates.  
+- **Load:** Loaded the cleaned data into Power BI for analysis.
 
-Extract: Imported the Excel dataset into Power BI
+---
 
-Transform: Cleaned data in Power Query, checked data types, removed duplicates
+## Report Overview
 
-Load: Loaded the cleaned dataset into Power BI for analysis
+The report focuses on **Grade 12 Mathematics performance** for two schools, comparing students from **Urban** and **Rural** areas. The goal is to identify factors affecting student performance.
 
-Filters (Slicers) Used
+### Filters (Slicers) Used:
 
-School Name
+- School Name  
+- Sex  
+- Support Group (measure combining school support, internet access, and family support)  
+- Address (Urban/Rural)  
 
-Sex
+### KPI Cards:
 
-Support Group (combined measure of school support, internet access, and family support)
+- **Total Students:** 395 (Urban: 307, Rural: 88)  
+- **Pass Rate %:** Students with final marks ≥ 10 (Urban: 210 passed, Rural: 55 passed)  
+- **Fail Rate %:** Students with final marks < 10 (Urban: 97 failed, Rural: 33 failed)  
+- **Average Final Marks (G3):** Average of final grade for all students  
 
-Address (Urban/Rural)
+---
 
-KPI Cards
+## Visuals
 
-Total Students: 395 (Urban: 307, Rural: 88)
+1. **Total Students by Performance Status:**  
+   Shows 265 students passed and 130 failed overall.
 
-Pass Rate %: Students with final marks ≥ 10 (Urban: 210 passed, Rural: 55 passed)
+2. **Performance by Address:**  
+   - Urban: 210 passed, 97 failed  
+   - Rural: 55 passed, 33 failed  
 
-Fail Rate %: Students with final marks < 10 (Urban: 97 failed, Rural: 33 failed)
+3. **Support Group by Address:**  
+   - Urban: 295 students have support  
+   - Rural: 70 students have support  
 
-Average Final Marks (G3): Overall average of final grades
+4. **Extra Classes Attendance:**  
+   - 181 students attended extra classes  
+   - 214 students did not attend  
 
-Visuals
+---
 
-Total Students by Performance Status
+## Additional Features
 
-265 students passed, 130 students failed
+- **Reset All Filters Button:** Clears all selected filters.  
+- **Detail Report Button:** Drill-through to the filtered student dataset for further analysis or export to Excel/CSV.
 
-Performance by Address
+---
 
-Urban: 210 passed, 97 failed
-
-Rural: 55 passed, 33 failed
-
-Support Group by Address
-
-Urban: 295 students have support
-
-Rural: 70 students have support
-
-Extra Classes Attendance
-
-181 students attended extra classes
-
-214 students did not attend
-
-Additional Features
-
-Reset All Filters Button: Clears all selected filters
-
-Detail Report Button: Drill-through to the filtered student dataset for further analysis or export to Excel/CSV
-
-Tools & Technologies
-
-Power BI Desktop
-
-DAX (measures and calculations)
-
-Power Query (data transformation)
-
-Excel (data source)
-
-Interactive Report
-
-View Interactive Power BI Report
+## [View Interactive Report](YOUR_PUBLISH_TO_WEB_LINK_HERE)
