@@ -49,7 +49,7 @@ The report focuses on **Grade 12 Mathematics performance** for two schools, comp
    - 181 students attended extra classes  
    - 214 students did not attend  
 
-
+## [View Interactive Report](<iframe title="student_Mathematical_perfomance_Analysis" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=0ea5aa52-8c95-40e8-a74d-c98905d0ab59&autoAuth=true&ctid=f38ba9d8-554c-48a2-ae42-13b1e7f3c797" frameborder="0" allowFullScreen="true"></iframe>)
 
 ## Additional Features
 
